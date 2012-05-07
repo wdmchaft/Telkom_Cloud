@@ -25,7 +25,7 @@ var splash = Titanium.UI.createImageView({
 	zIndex : 1,
 });
 var SME = Titanium.UI.createButton({
-	title : 'Small Medium Enterprise',
+	title : 'SME',
 	height : 40,
 	width : 140,
 	top : 360,
