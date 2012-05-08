@@ -42,7 +42,14 @@ var LE = Titanium.UI.createButton({
 
 });
 SME.addEventListener('click', function(e) {
-	alert(123);
+	var win = null;
+	win = Ti.UI.createWindow({
+		background : 'black',
+		navBarHidden : false,
+		title : 'SME',
+		//url : 'sme/SME_index.js'
+	});
+	tab1.open(win);
 })
 win1.add(SME, LE);
 win1.add(splash);
